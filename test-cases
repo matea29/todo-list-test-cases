@@ -1,0 +1,92 @@
+TEST CASES
+
+TEST CASE 1- Add new daily tasks and save it 
+
+Browser: Desktop/ Chrome
+
+Steps:
+ 
+1.	Go to https://dailytodo.org/ 
+2.	Click on the “Create your Daily Todo list” button
+3.	Add tasks: “Make bed”, “Go for a run”, “Make breakfast”, and “Get dressed”
+4.	Click on the “Save tasks” button
+
+Expected results:  All tasks are saved   
+Actual results:  All tasks are saved   
+-- TEST RESULT -- 
+Test status: PASSED
+
+
+
+TEST CASE 2- Add new daily tasks and cancel it  
+
+Browser: Desktop/ Chrome
+
+Steps:
+ 
+1.	Go to https://dailytodo.org/ 
+2.	Click on the “Create your Daily Todo list” button
+3.	Add tasks: “Make bed”, “Go for a run”, “Make breakfast”, and “Get dressed”
+4.	Click on the “Cancel” button
+
+Expected results:  User is redirected to   https://dailytodo.org/ initial view
+Actual results:  User is redirected to   https://dailytodo.org/ initial view
+-- TEST RESULT -- 
+Test status: PASSED
+ 
+TEST CASE 3- Mark tasks as done 
+
+Browser: Desktop/ Chrome
+
+Steps:
+ 
+1.	Go to https://dailytodo.org/ 
+2.	Click on the “Create your Daily Todo list” button
+3.	Add tasks: “Make bed”, “Go for a run”, “Make breakfast”, and “Get dressed”
+4.	Click on the “Save tasks” button
+5.	Check boxes for all the tasks in the list
+
+Expected results:  All the tasks in the list are marked as done 
+Actual results:  All the tasks in the list are marked as done 
+-- TEST RESULT -- 
+Test status: PASSED
+
+TEST CASE 4- Unmark tasks as done 
+
+Browser: Desktop/ Chrome
+
+Steps:
+ 
+1.	Go to https://dailytodo.org/ 
+2.	Click on the “Create your Daily Todo list” button
+3.	Add tasks: “Make bed”, “Go for a run”, “Make breakfast”, and “Get dressed”
+4.	Click on the “Save tasks” button
+5.	Check boxes for all the tasks in the list
+6.	Remove checks for 3 tasks in the list
+
+Expected results:  3 tasks in the list should have empty checkbox
+Actual results:  3 tasks in the list should have empty checkbox
+-- TEST RESULT -- 
+Test status: PASSED
+
+
+
+TEST CASE 5- Edit daily task list 
+
+Browser: Desktop/ Chrome
+
+Steps:
+ 
+1.	Go to https://dailytodo.org/ 
+2.	Click on the “Create your Daily Todo list” button
+3.	Add tasks: “Make bed”, “Go for a run”, “Make breakfast”, and “Get dressed”
+4.	Click on the “Save tasks” button
+5.	Click on the “Edit” link
+6.	Delete task “Go for a run” 
+7.	Click on the “Save tasks” button
+
+Expected results:  Changes should be saved and only tasks: “Make bed”, “Make breakfast”, and “Get dressed” should be visible
+Actual results:  Changes are saved and only tasks: “Make bed”, “Make breakfast”, and “Get dressed” are visible
+-- TEST RESULT -- 
+Test status: PASSED
+
